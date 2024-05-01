@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+}
+.main{
+  display:flex;
+}
+
+.write-form {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px grey;
+  background: linear-gradient(180deg, rgb(238, 238, 238), rgb(204, 204, 204));
+  padding: 15px;
+  justify-content: center;
+  border-radius: 5px;
+  min-width: 24rem;
+}
+.bottom-box {
+  display: flex;
+}
+.output {
+  border: solid 1px grey;
+  border-radius: 5px;
+  flex-basis: 200px;
+  padding: 10px;
+  margin: 0 0 8px;
+}
+.input {
+  flex: 1 1;
+  height: 28px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: solid 1px grey;
+  padding-left: 10px;
+}
+button {
+  border-radius: 5px;
+  border: 0;
+  background: #444;
+  color: #fff;
+  padding: 6px;
+  margin-left: 5px;
+}
+.channels{
+  display:flex;
+  flex-direction:column;
+}
+.channel{
+  margin: 0 0 10px 10px;
+}
